@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "mimir",
+	"version": "${version}",
+	"name": "Mimir",
+	"description": "Inverse Kinematics library for Minecraft Fabric",
+	"authors": [
+		"Hadences"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "AGPL-3.0",
+	"icon": "assets/mimir/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.hadences.Mimir"
+		]
+	},
+	"mixins": [
+		"mimir.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
