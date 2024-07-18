@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.hadences.Mimir"
+		],
+		"client": [
+			"net.hadences.MimirClient"
 		]
 	},
 	"mixins": [
