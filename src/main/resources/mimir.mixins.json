@@ -3,8 +3,6 @@
   "package": "net.hadences.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "BlockDisplayEntityInvoker",
-    "DisplayEntityInvoker",
     "ExampleMixin"
   ],
   "injectors": {
